@@ -1,0 +1,53 @@
+.app {
+    margin: 0 auto;
+}
+
+.tabs {
+    width:100%;
+    height:4em;
+    display: flex;
+    object-fit: fill;
+
+}
+
+button {
+    font-family: "Arial", sans-serif;
+    background-color: #ffffff;
+    font-size:20px;
+    width:34%;
+    color:#4d4d4d;
+    border-bottom:solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+button.active{
+    color:#5fc29f;
+}
+
+.naming{
+    vertical-align: middle;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    background-color:#5fc29f;
+    height:4em;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.description{
+    padding: 0.5em 0 0.5em 2em;
+    vertical-align: middle;
+    margin-top: 1em;
+}
+
+.calculator-icon{
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-right: 3em;
+    vertical-align: middle;
+}
